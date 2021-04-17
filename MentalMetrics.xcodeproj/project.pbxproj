@@ -13,7 +13,7 @@
 		74D21129262B2E31004ADAD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74D21127262B2E31004ADAD1 /* Main.storyboard */; };
 		74D2112B262B2E31004ADAD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74D2112A262B2E31004ADAD1 /* Assets.xcassets */; };
 		74D2112E262B2E31004ADAD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74D2112C262B2E31004ADAD1 /* LaunchScreen.storyboard */; };
-		74D21139262B2E32004ADAD1 /* DepressionTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D21138262B2E32004ADAD1 /* DepressionTrackerTests.swift */; };
+		74D21139262B2E32004ADAD1 /* MentalMetricsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D21138262B2E32004ADAD1 /* MentalMetricsTests.swift */; };
 		74D21144262B2E32004ADAD1 /* MetnalMetricsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D21143262B2E32004ADAD1 /* MetnalMetricsUITests.swift */; };
 		74D2115D262B308C004ADAD1 /* WKView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D2115C262B308C004ADAD1 /* WKView.swift */; };
 /* End PBXBuildFile section */
@@ -45,7 +45,7 @@
 		74D2112D262B2E31004ADAD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		74D2112F262B2E31004ADAD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		74D21134262B2E32004ADAD1 /* MentalMetricsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MentalMetricsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		74D21138262B2E32004ADAD1 /* DepressionTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepressionTrackerTests.swift; sourceTree = "<group>"; };
+		74D21138262B2E32004ADAD1 /* MentalMetricsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentalMetricsTests.swift; sourceTree = "<group>"; };
 		74D2113A262B2E32004ADAD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		74D2113F262B2E32004ADAD1 /* MentalMetricsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MentalMetricsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		74D21143262B2E32004ADAD1 /* MetnalMetricsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetnalMetricsUITests.swift; sourceTree = "<group>"; };
@@ -116,7 +116,7 @@
 		74D21137262B2E32004ADAD1 /* MentalMetricsTests */ = {
 			isa = PBXGroup;
 			children = (
-				74D21138262B2E32004ADAD1 /* DepressionTrackerTests.swift */,
+				74D21138262B2E32004ADAD1 /* MentalMetricsTests.swift */,
 				74D2113A262B2E32004ADAD1 /* Info.plist */,
 			);
 			path = MentalMetricsTests;
@@ -272,7 +272,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74D21139262B2E32004ADAD1 /* DepressionTrackerTests.swift in Sources */,
+				74D21139262B2E32004ADAD1 /* MentalMetricsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
