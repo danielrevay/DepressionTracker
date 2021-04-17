@@ -23,6 +23,9 @@ class WKView: UIViewController, WKUIDelegate {
         
         let myURL = URL(string:"https://www.apple.com")
         let myRequest = URLRequest(url: myURL!)
+        let url = Bundle.main.url(forResource:"index",withExtension:"html",subdirectory:"")
+        webView.loadFileURL(url!,allowingReadAccessTo:url!)
+        let request = URLRequest(url:url!)
         webView.load(myRequest)
         webView.allowsBackForwardNavigationGestures = true
     }}

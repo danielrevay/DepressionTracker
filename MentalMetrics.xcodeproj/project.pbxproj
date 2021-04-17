@@ -36,7 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		74D2111E262B2E31004ADAD1 /* DepressionTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DepressionTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		74D2111E262B2E31004ADAD1 /* MentalMetrics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MentalMetrics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74D21121262B2E31004ADAD1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		74D21123262B2E31004ADAD1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		74D21125262B2E31004ADAD1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -44,10 +44,10 @@
 		74D2112A262B2E31004ADAD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		74D2112D262B2E31004ADAD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		74D2112F262B2E31004ADAD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		74D21134262B2E32004ADAD1 /* DepressionTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DepressionTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		74D21134262B2E32004ADAD1 /* MentalMetricsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MentalMetricsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		74D21138262B2E32004ADAD1 /* DepressionTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepressionTrackerTests.swift; sourceTree = "<group>"; };
 		74D2113A262B2E32004ADAD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		74D2113F262B2E32004ADAD1 /* DepressionTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DepressionTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		74D2113F262B2E32004ADAD1 /* MentalMetricsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MentalMetricsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		74D21143262B2E32004ADAD1 /* DepressionTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepressionTrackerUITests.swift; sourceTree = "<group>"; };
 		74D21145262B2E32004ADAD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		74D2115C262B308C004ADAD1 /* WKView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WKView.swift; sourceTree = "<group>"; };
@@ -91,9 +91,9 @@
 		74D2111F262B2E31004ADAD1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				74D2111E262B2E31004ADAD1 /* DepressionTracker.app */,
-				74D21134262B2E32004ADAD1 /* DepressionTrackerTests.xctest */,
-				74D2113F262B2E32004ADAD1 /* DepressionTrackerUITests.xctest */,
+				74D2111E262B2E31004ADAD1 /* MentalMetrics.app */,
+				74D21134262B2E32004ADAD1 /* MentalMetricsTests.xctest */,
+				74D2113F262B2E32004ADAD1 /* MentalMetricsUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -134,9 +134,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		74D2111D262B2E31004ADAD1 /* DepressionTracker */ = {
+		74D2111D262B2E31004ADAD1 /* MentalMetrics */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 74D21148262B2E32004ADAD1 /* Build configuration list for PBXNativeTarget "DepressionTracker" */;
+			buildConfigurationList = 74D21148262B2E32004ADAD1 /* Build configuration list for PBXNativeTarget "MentalMetrics" */;
 			buildPhases = (
 				74D2111A262B2E31004ADAD1 /* Sources */,
 				74D2111B262B2E31004ADAD1 /* Frameworks */,
@@ -146,14 +146,14 @@
 			);
 			dependencies = (
 			);
-			name = DepressionTracker;
+			name = MentalMetrics;
 			productName = DepressionTracker;
-			productReference = 74D2111E262B2E31004ADAD1 /* DepressionTracker.app */;
+			productReference = 74D2111E262B2E31004ADAD1 /* MentalMetrics.app */;
 			productType = "com.apple.product-type.application";
 		};
-		74D21133262B2E32004ADAD1 /* DepressionTrackerTests */ = {
+		74D21133262B2E32004ADAD1 /* MentalMetricsTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 74D2114B262B2E32004ADAD1 /* Build configuration list for PBXNativeTarget "DepressionTrackerTests" */;
+			buildConfigurationList = 74D2114B262B2E32004ADAD1 /* Build configuration list for PBXNativeTarget "MentalMetricsTests" */;
 			buildPhases = (
 				74D21130262B2E32004ADAD1 /* Sources */,
 				74D21131262B2E32004ADAD1 /* Frameworks */,
@@ -164,14 +164,14 @@
 			dependencies = (
 				74D21136262B2E32004ADAD1 /* PBXTargetDependency */,
 			);
-			name = DepressionTrackerTests;
+			name = MentalMetricsTests;
 			productName = DepressionTrackerTests;
-			productReference = 74D21134262B2E32004ADAD1 /* DepressionTrackerTests.xctest */;
+			productReference = 74D21134262B2E32004ADAD1 /* MentalMetricsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		74D2113E262B2E32004ADAD1 /* DepressionTrackerUITests */ = {
+		74D2113E262B2E32004ADAD1 /* MentalMetricsUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 74D2114E262B2E32004ADAD1 /* Build configuration list for PBXNativeTarget "DepressionTrackerUITests" */;
+			buildConfigurationList = 74D2114E262B2E32004ADAD1 /* Build configuration list for PBXNativeTarget "MentalMetricsUITests" */;
 			buildPhases = (
 				74D2113B262B2E32004ADAD1 /* Sources */,
 				74D2113C262B2E32004ADAD1 /* Frameworks */,
@@ -182,9 +182,9 @@
 			dependencies = (
 				74D21141262B2E32004ADAD1 /* PBXTargetDependency */,
 			);
-			name = DepressionTrackerUITests;
+			name = MentalMetricsUITests;
 			productName = DepressionTrackerUITests;
-			productReference = 74D2113F262B2E32004ADAD1 /* DepressionTrackerUITests.xctest */;
+			productReference = 74D2113F262B2E32004ADAD1 /* MentalMetricsUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -209,7 +209,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 74D21119262B2E31004ADAD1 /* Build configuration list for PBXProject "DepressionTracker" */;
+			buildConfigurationList = 74D21119262B2E31004ADAD1 /* Build configuration list for PBXProject "MentalMetrics" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -222,9 +222,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				74D2111D262B2E31004ADAD1 /* DepressionTracker */,
-				74D21133262B2E32004ADAD1 /* DepressionTrackerTests */,
-				74D2113E262B2E32004ADAD1 /* DepressionTrackerUITests */,
+				74D2111D262B2E31004ADAD1 /* MentalMetrics */,
+				74D21133262B2E32004ADAD1 /* MentalMetricsTests */,
+				74D2113E262B2E32004ADAD1 /* MentalMetricsUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -289,12 +289,12 @@
 /* Begin PBXTargetDependency section */
 		74D21136262B2E32004ADAD1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 74D2111D262B2E31004ADAD1 /* DepressionTracker */;
+			target = 74D2111D262B2E31004ADAD1 /* MentalMetrics */;
 			targetProxy = 74D21135262B2E32004ADAD1 /* PBXContainerItemProxy */;
 		};
 		74D21141262B2E32004ADAD1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 74D2111D262B2E31004ADAD1 /* DepressionTracker */;
+			target = 74D2111D262B2E31004ADAD1 /* MentalMetrics */;
 			targetProxy = 74D21140262B2E32004ADAD1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -446,7 +446,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = DepressoEspresso.DepressionTracker;
+				PRODUCT_BUNDLE_IDENTIFIER = DepressoEspresso.MentalMetrics;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -464,7 +464,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = DepressoEspresso.DepressionTracker;
+				PRODUCT_BUNDLE_IDENTIFIER = DepressoEspresso.MentalMetrics;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -488,7 +488,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DepressionTracker.app/DepressionTracker";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MentalMetrics.app/MentalMetrics";
 			};
 			name = Debug;
 		};
@@ -509,7 +509,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DepressionTracker.app/DepressionTracker";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MentalMetrics.app/MentalMetrics";
 			};
 			name = Release;
 		};
@@ -554,7 +554,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		74D21119262B2E31004ADAD1 /* Build configuration list for PBXProject "DepressionTracker" */ = {
+		74D21119262B2E31004ADAD1 /* Build configuration list for PBXProject "MentalMetrics" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				74D21146262B2E32004ADAD1 /* Debug */,
@@ -563,7 +563,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		74D21148262B2E32004ADAD1 /* Build configuration list for PBXNativeTarget "DepressionTracker" */ = {
+		74D21148262B2E32004ADAD1 /* Build configuration list for PBXNativeTarget "MentalMetrics" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				74D21149262B2E32004ADAD1 /* Debug */,
@@ -572,7 +572,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		74D2114B262B2E32004ADAD1 /* Build configuration list for PBXNativeTarget "DepressionTrackerTests" */ = {
+		74D2114B262B2E32004ADAD1 /* Build configuration list for PBXNativeTarget "MentalMetricsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				74D2114C262B2E32004ADAD1 /* Debug */,
@@ -581,7 +581,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		74D2114E262B2E32004ADAD1 /* Build configuration list for PBXNativeTarget "DepressionTrackerUITests" */ = {
+		74D2114E262B2E32004ADAD1 /* Build configuration list for PBXNativeTarget "MentalMetricsUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				74D2114F262B2E32004ADAD1 /* Debug */,
