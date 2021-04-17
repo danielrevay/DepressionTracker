@@ -3,7 +3,7 @@
 //  MentalMetrics
 //
 //  Created by Daniel Revay on 4/17/21.
-//
+//  https://medium.com/@anitaa_1990/create-a-horizontal-paging-uiscrollview-with-uipagecontrol-swift-4-xcode-9-a3dddc845e92
 
 import Foundation
 import UIKit
@@ -21,7 +21,7 @@ class HoriStackView : UIViewController {
         pageControl.currentPage = 0
         view.bringSubviewToFront(pageControl)
     }
-    func createSlides() -> [Slide] {
+    func createSlides() -> [Slide] { // https://medium.com/@anitaa_1990/create-a-horizontal-paging-uiscrollview-with-uipagecontrol-swift-4-xcode-9-a3dddc845e92
         let slide1:Slide = Bundle.main.loadNibNamed("Slide", owner: self, options: nil)?.first as! Slide
         slide1.lblDate.text = "ur mom"
         slide1.lblActualMood.text = "xd"
@@ -32,7 +32,7 @@ class HoriStackView : UIViewController {
         slide2.lblExpectedMood.text = "ur"
         return [slide1,slide2]
     }
-    func setupSlideScrollView(slides:[Slide]){
+    func setupSlideScrollView(slides:[Slide]){ // https://medium.com/@anitaa_1990/create-a-horizontal-paging-uiscrollview-with-uipagecontrol-swift-4-xcode-9-a3dddc845e92
         vwScrollView.frame = CGRect(x: 0, y: 0, width: view.frame.width, height: view.frame.height)
         vwScrollView.contentSize = CGSize(width: view.frame.width * CGFloat(slides.count), height: view.frame.height)
         vwScrollView.isPagingEnabled = true

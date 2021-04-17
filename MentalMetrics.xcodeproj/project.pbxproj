@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1EC6F47189596ED797B1FBAE /* Pods_MentalMetrics_MentalMetricsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A70A958CABDB5CA1CBB17022 /* Pods_MentalMetrics_MentalMetricsUITests.framework */; };
+		3987F346D1A43EF6D8C64DC5 /* Pods_MentalMetricsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24DA12C1577406B79ED903CE /* Pods_MentalMetricsTests.framework */; };
 		749F8BE6262B62CB00B2B671 /* HoriStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749F8BE5262B62CB00B2B671 /* HoriStackView.swift */; };
 		749F8BEB262B700400B2B671 /* Slide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749F8BEA262B700400B2B671 /* Slide.swift */; };
 		749F8BF0262B701F00B2B671 /* Slide.xib in Resources */ = {isa = PBXBuildFile; fileRef = 749F8BEF262B701F00B2B671 /* Slide.xib */; };
@@ -19,6 +21,7 @@
 		74D21139262B2E32004ADAD1 /* MentalMetricsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D21138262B2E32004ADAD1 /* MentalMetricsTests.swift */; };
 		74D21144262B2E32004ADAD1 /* MetnalMetricsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D21143262B2E32004ADAD1 /* MetnalMetricsUITests.swift */; };
 		74D2115D262B308C004ADAD1 /* WKView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D2115C262B308C004ADAD1 /* WKView.swift */; };
+		CA47965BAC2A9E9CAE9D937D /* Pods_MentalMetrics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA033A09EE6AAB8B99B0C0CF /* Pods_MentalMetrics.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +42,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00728200A58BE6679EF1519E /* Pods-MentalMetricsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MentalMetricsTests.debug.xcconfig"; path = "Target Support Files/Pods-MentalMetricsTests/Pods-MentalMetricsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		069DDCA8226C85B2FBB955EA /* Pods-MentalMetrics-MentalMetricsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MentalMetrics-MentalMetricsUITests.debug.xcconfig"; path = "Target Support Files/Pods-MentalMetrics-MentalMetricsUITests/Pods-MentalMetrics-MentalMetricsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		24DA12C1577406B79ED903CE /* Pods_MentalMetricsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MentalMetricsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		741766969880D903E9E0C223 /* Pods-MentalMetrics-MentalMetricsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MentalMetrics-MentalMetricsUITests.release.xcconfig"; path = "Target Support Files/Pods-MentalMetrics-MentalMetricsUITests/Pods-MentalMetrics-MentalMetricsUITests.release.xcconfig"; sourceTree = "<group>"; };
 		749F8BE5262B62CB00B2B671 /* HoriStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoriStackView.swift; sourceTree = "<group>"; };
 		749F8BEA262B700400B2B671 /* Slide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slide.swift; sourceTree = "<group>"; };
 		749F8BEF262B701F00B2B671 /* Slide.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Slide.xib; sourceTree = "<group>"; };
@@ -57,6 +64,11 @@
 		74D21143262B2E32004ADAD1 /* MetnalMetricsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetnalMetricsUITests.swift; sourceTree = "<group>"; };
 		74D21145262B2E32004ADAD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		74D2115C262B308C004ADAD1 /* WKView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WKView.swift; sourceTree = "<group>"; };
+		8309A963AD114FD2093B1103 /* Pods-MentalMetrics.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MentalMetrics.release.xcconfig"; path = "Target Support Files/Pods-MentalMetrics/Pods-MentalMetrics.release.xcconfig"; sourceTree = "<group>"; };
+		A70A958CABDB5CA1CBB17022 /* Pods_MentalMetrics_MentalMetricsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MentalMetrics_MentalMetricsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5864F28F8C2AC745BE45F9E /* Pods-MentalMetricsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MentalMetricsTests.release.xcconfig"; path = "Target Support Files/Pods-MentalMetricsTests/Pods-MentalMetricsTests.release.xcconfig"; sourceTree = "<group>"; };
+		DE39F38FC005F479D628CAB0 /* Pods-MentalMetrics.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MentalMetrics.debug.xcconfig"; path = "Target Support Files/Pods-MentalMetrics/Pods-MentalMetrics.debug.xcconfig"; sourceTree = "<group>"; };
+		FA033A09EE6AAB8B99B0C0CF /* Pods_MentalMetrics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MentalMetrics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA47965BAC2A9E9CAE9D937D /* Pods_MentalMetrics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3987F346D1A43EF6D8C64DC5 /* Pods_MentalMetricsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EC6F47189596ED797B1FBAE /* Pods_MentalMetrics_MentalMetricsUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +106,8 @@
 				74D21137262B2E32004ADAD1 /* MentalMetricsTests */,
 				74D21142262B2E32004ADAD1 /* MentalMetricsUITests */,
 				74D2111F262B2E31004ADAD1 /* Products */,
+				FC9C63FDF98028AA8D730EDC /* Pods */,
+				E1BE79C39FD79D360B436270 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -140,6 +157,30 @@
 			path = MentalMetricsUITests;
 			sourceTree = "<group>";
 		};
+		E1BE79C39FD79D360B436270 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA033A09EE6AAB8B99B0C0CF /* Pods_MentalMetrics.framework */,
+				A70A958CABDB5CA1CBB17022 /* Pods_MentalMetrics_MentalMetricsUITests.framework */,
+				24DA12C1577406B79ED903CE /* Pods_MentalMetricsTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FC9C63FDF98028AA8D730EDC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DE39F38FC005F479D628CAB0 /* Pods-MentalMetrics.debug.xcconfig */,
+				8309A963AD114FD2093B1103 /* Pods-MentalMetrics.release.xcconfig */,
+				069DDCA8226C85B2FBB955EA /* Pods-MentalMetrics-MentalMetricsUITests.debug.xcconfig */,
+				741766969880D903E9E0C223 /* Pods-MentalMetrics-MentalMetricsUITests.release.xcconfig */,
+				00728200A58BE6679EF1519E /* Pods-MentalMetricsTests.debug.xcconfig */,
+				C5864F28F8C2AC745BE45F9E /* Pods-MentalMetricsTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +188,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 74D21148262B2E32004ADAD1 /* Build configuration list for PBXNativeTarget "MentalMetrics" */;
 			buildPhases = (
+				E5A2BBD3AD45E33E6C703F2F /* [CP] Check Pods Manifest.lock */,
 				74D2111A262B2E31004ADAD1 /* Sources */,
 				74D2111B262B2E31004ADAD1 /* Frameworks */,
 				74D2111C262B2E31004ADAD1 /* Resources */,
+				4779D08077BC323834307CC2 /* [CP] Embed Pods Frameworks */,
+				AEAA65F3FB37C28E61F6E9E9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,6 +208,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 74D2114B262B2E32004ADAD1 /* Build configuration list for PBXNativeTarget "MentalMetricsTests" */;
 			buildPhases = (
+				C72686A3849BBACA58B10B88 /* [CP] Check Pods Manifest.lock */,
 				74D21130262B2E32004ADAD1 /* Sources */,
 				74D21131262B2E32004ADAD1 /* Frameworks */,
 				74D21132262B2E32004ADAD1 /* Resources */,
@@ -182,9 +227,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 74D2114E262B2E32004ADAD1 /* Build configuration list for PBXNativeTarget "MentalMetricsUITests" */;
 			buildPhases = (
+				4CDB5EBDE776D81A260D7F6B /* [CP] Check Pods Manifest.lock */,
 				74D2113B262B2E32004ADAD1 /* Sources */,
 				74D2113C262B2E32004ADAD1 /* Frameworks */,
 				74D2113D262B2E32004ADAD1 /* Resources */,
+				C53FCA64CD6BE1FE556B30F8 /* [CP] Embed Pods Frameworks */,
+				BA4235AE762237F65788C613 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -265,6 +313,143 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4779D08077BC323834307CC2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MentalMetrics/Pods-MentalMetrics-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MentalMetrics/Pods-MentalMetrics-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MentalMetrics/Pods-MentalMetrics-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4CDB5EBDE776D81A260D7F6B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MentalMetrics-MentalMetricsUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AEAA65F3FB37C28E61F6E9E9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MentalMetrics/Pods-MentalMetrics-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MentalMetrics/Pods-MentalMetrics-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MentalMetrics/Pods-MentalMetrics-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA4235AE762237F65788C613 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MentalMetrics-MentalMetricsUITests/Pods-MentalMetrics-MentalMetricsUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MentalMetrics-MentalMetricsUITests/Pods-MentalMetrics-MentalMetricsUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MentalMetrics-MentalMetricsUITests/Pods-MentalMetrics-MentalMetricsUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C53FCA64CD6BE1FE556B30F8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MentalMetrics-MentalMetricsUITests/Pods-MentalMetrics-MentalMetricsUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MentalMetrics-MentalMetricsUITests/Pods-MentalMetrics-MentalMetricsUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MentalMetrics-MentalMetricsUITests/Pods-MentalMetrics-MentalMetricsUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C72686A3849BBACA58B10B88 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MentalMetricsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5A2BBD3AD45E33E6C703F2F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MentalMetrics-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		74D2111A262B2E31004ADAD1 /* Sources */ = {
@@ -449,6 +634,7 @@
 		};
 		74D21149262B2E32004ADAD1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE39F38FC005F479D628CAB0 /* Pods-MentalMetrics.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -467,6 +653,7 @@
 		};
 		74D2114A262B2E32004ADAD1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8309A963AD114FD2093B1103 /* Pods-MentalMetrics.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -485,6 +672,7 @@
 		};
 		74D2114C262B2E32004ADAD1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00728200A58BE6679EF1519E /* Pods-MentalMetricsTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -506,6 +694,7 @@
 		};
 		74D2114D262B2E32004ADAD1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5864F28F8C2AC745BE45F9E /* Pods-MentalMetricsTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -527,6 +716,7 @@
 		};
 		74D2114F262B2E32004ADAD1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 069DDCA8226C85B2FBB955EA /* Pods-MentalMetrics-MentalMetricsUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -546,6 +736,7 @@
 		};
 		74D21150262B2E32004ADAD1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 741766969880D903E9E0C223 /* Pods-MentalMetrics-MentalMetricsUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
