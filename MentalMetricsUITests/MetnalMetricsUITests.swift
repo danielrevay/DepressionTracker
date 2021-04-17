@@ -1,13 +1,13 @@
 //
-//  DepressionTrackerUITests.swift
-//  DepressionTrackerUITests
+//  MentalMetricsUITests.swift
+//  MentalMetricsUITests
 //
 //  Created by Daniel Revay on 4/17/21.
 //
 
 import XCTest
 
-class DepressionTrackerUITests: XCTestCase {
+class MentalMetricsUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

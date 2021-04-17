@@ -14,7 +14,7 @@
 		74D2112B262B2E31004ADAD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74D2112A262B2E31004ADAD1 /* Assets.xcassets */; };
 		74D2112E262B2E31004ADAD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74D2112C262B2E31004ADAD1 /* LaunchScreen.storyboard */; };
 		74D21139262B2E32004ADAD1 /* DepressionTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D21138262B2E32004ADAD1 /* DepressionTrackerTests.swift */; };
-		74D21144262B2E32004ADAD1 /* DepressionTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D21143262B2E32004ADAD1 /* DepressionTrackerUITests.swift */; };
+		74D21144262B2E32004ADAD1 /* MetnalMetricsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D21143262B2E32004ADAD1 /* MetnalMetricsUITests.swift */; };
 		74D2115D262B308C004ADAD1 /* WKView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D2115C262B308C004ADAD1 /* WKView.swift */; };
 /* End PBXBuildFile section */
 
@@ -48,7 +48,7 @@
 		74D21138262B2E32004ADAD1 /* DepressionTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepressionTrackerTests.swift; sourceTree = "<group>"; };
 		74D2113A262B2E32004ADAD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		74D2113F262B2E32004ADAD1 /* MentalMetricsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MentalMetricsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		74D21143262B2E32004ADAD1 /* DepressionTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepressionTrackerUITests.swift; sourceTree = "<group>"; };
+		74D21143262B2E32004ADAD1 /* MetnalMetricsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetnalMetricsUITests.swift; sourceTree = "<group>"; };
 		74D21145262B2E32004ADAD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		74D2115C262B308C004ADAD1 /* WKView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WKView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -81,9 +81,9 @@
 		74D21115262B2E31004ADAD1 = {
 			isa = PBXGroup;
 			children = (
-				74D21120262B2E31004ADAD1 /* DepressionTracker */,
-				74D21137262B2E32004ADAD1 /* DepressionTrackerTests */,
-				74D21142262B2E32004ADAD1 /* DepressionTrackerUITests */,
+				74D21120262B2E31004ADAD1 /* MentalMetrics */,
+				74D21137262B2E32004ADAD1 /* MentalMetricsTests */,
+				74D21142262B2E32004ADAD1 /* MentalMetricsUITests */,
 				74D2111F262B2E31004ADAD1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -98,7 +98,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		74D21120262B2E31004ADAD1 /* DepressionTracker */ = {
+		74D21120262B2E31004ADAD1 /* MentalMetrics */ = {
 			isa = PBXGroup;
 			children = (
 				74D21121262B2E31004ADAD1 /* AppDelegate.swift */,
@@ -110,25 +110,25 @@
 				74D2112C262B2E31004ADAD1 /* LaunchScreen.storyboard */,
 				74D2112F262B2E31004ADAD1 /* Info.plist */,
 			);
-			path = DepressionTracker;
+			path = MentalMetrics;
 			sourceTree = "<group>";
 		};
-		74D21137262B2E32004ADAD1 /* DepressionTrackerTests */ = {
+		74D21137262B2E32004ADAD1 /* MentalMetricsTests */ = {
 			isa = PBXGroup;
 			children = (
 				74D21138262B2E32004ADAD1 /* DepressionTrackerTests.swift */,
 				74D2113A262B2E32004ADAD1 /* Info.plist */,
 			);
-			path = DepressionTrackerTests;
+			path = MentalMetricsTests;
 			sourceTree = "<group>";
 		};
-		74D21142262B2E32004ADAD1 /* DepressionTrackerUITests */ = {
+		74D21142262B2E32004ADAD1 /* MentalMetricsUITests */ = {
 			isa = PBXGroup;
 			children = (
-				74D21143262B2E32004ADAD1 /* DepressionTrackerUITests.swift */,
+				74D21143262B2E32004ADAD1 /* MetnalMetricsUITests.swift */,
 				74D21145262B2E32004ADAD1 /* Info.plist */,
 			);
-			path = DepressionTrackerUITests;
+			path = MentalMetricsUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -280,7 +280,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74D21144262B2E32004ADAD1 /* DepressionTrackerUITests.swift in Sources */,
+				74D21144262B2E32004ADAD1 /* MetnalMetricsUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

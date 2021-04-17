@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  DepressionTracker
+//  MentalMetrics
 //
 //  Created by Daniel Revay on 4/17/21.
 //
