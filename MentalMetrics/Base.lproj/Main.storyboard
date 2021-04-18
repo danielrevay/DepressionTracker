@@ -99,7 +99,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="285" id="gDS-al-cFG"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <state key="normal" title="Button">
                                     <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
@@ -113,6 +113,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="209" id="8dZ-ID-fBu"/>
                                 </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <state key="normal" title="Button">
                                     <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
@@ -126,6 +127,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="247" id="POJ-Ic-Mh6"/>
                                 </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <state key="normal" title="Button">
                                     <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
@@ -189,21 +191,17 @@
                                     <action selector="pickWebsite:" destination="oIs-iO-nDm" eventType="touchUpInside" id="Ox8-WY-PA8"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5yo-nn-fFx">
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="d4e-Tm-GWj" customClass="GIDSignInButton">
                                 <rect key="frame" x="234" y="768" width="160" height="94"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="btnGoogleAuth"/>
-                                <connections>
-                                    <action selector="pickGoogle:" destination="oIs-iO-nDm" eventType="touchUpInside" id="8f2-Yt-gDT"/>
-                                </connections>
-                            </button>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="KwH-FW-7Ps"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="Jte-bZ-ey0"/>
                     <connections>
-                        <outlet property="btnGoogle" destination="5yo-nn-fFx" id="1gr-ta-mIL"/>
                         <outlet property="btnWebsite" destination="UDT-yQ-spV" id="C4y-cF-yu1"/>
                         <outlet property="imgImageView" destination="k2O-N1-gBC" id="sfx-Vk-rlT"/>
                         <outlet property="lblParagraph" destination="AeW-WK-GFJ" id="AY0-fT-gyH"/>
@@ -211,7 +209,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Y89-3k-FRr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2723" y="74"/>
+            <point key="canvasLocation" x="2721.739130434783" y="73.660714285714278"/>
         </scene>
     </scenes>
     <resources>
