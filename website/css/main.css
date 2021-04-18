@@ -1,0 +1,105 @@
+/* #5C8DA5 to #112743 */
+/* #E89C7B to #AC75A6 */
+html, body{
+    min-height: 100% !important;
+    height: 100%;
+    font-weight: 700;
+}
+
+body{
+  font-family: Lucida Sans Unicode;
+  background: linear-gradient(180deg,#5c8da5, #112743) fixed;
+  }
+
+.flex-container{
+
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column !important;  /* make main axis vertical */
+  justify-content: center !important; /* center items vertically, in this case */
+  align-items: center !important;     /* center items horizontally, in this case */
+  min-height: 100%;
+}
+
+.main-logo{
+  margin-top: -30px;
+}
+
+button{
+  border: none;
+  background: none;
+}
+
+
+.name{
+  font-size: 64px;
+}
+
+.svg-icon{
+  max-height: 5em !important;
+}
+
+.svg-icon-lg{
+  max-height: 4em !important;
+}
+
+
+.bg-white{
+  position: relative;
+  background-color: #fff;
+  border-radius: 56px 56px 0px 0px;
+}
+
+.iconGrid{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.iconItem{
+  fill: #5C8DA5;
+}
+
+.calendar{
+  display: grid;
+  grid-auto-rows: 50px;
+  grid-template-columns: 14.2% 14.2% 14.2% 14.2% 14.2% 14.2% 14.2%;
+}
+
+.bad{
+  background: #5C8DA5;
+  border: 1px solid #333;
+  color: white;
+}
+.good{
+  background: #AC75A6;
+  border: 1px solid #333;
+  color: white;
+}
+.back-purple{
+  background: #AC75A6;
+  padding: 3px;
+}
+.back-blue{
+  background: #5C8DA5;
+  padding: 3px;
+}
+
+.sub-button{
+  padding: 3px 10px 0px 10px;
+  border: 1px solid #555;
+  border-radius: 5px;
+  }
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
