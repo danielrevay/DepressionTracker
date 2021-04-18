@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>837280416864-s0cplhrcsh7m3hkftmpphdjlm07tke38.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.837280416864-s0cplhrcsh7m3hkftmpphdjlm07tke38</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDM3Dibb9v4PWeHqXLOZkxvFGH8BU4kxbk</string>
+	<key>GCM_SENDER_ID</key>
+	<string>837280416864</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>DepressoEspresso.MentalMetrics</string>
+	<key>PROJECT_ID</key>
+	<string>depression-1e371</string>
+	<key>STORAGE_BUCKET</key>
+	<string>depression-1e371.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:837280416864:ios:6d082b42e4d70c03e42f05</string>
+	<key>DATABASE_URL</key>
+	<string>https://depression-1e371-default-rtdb.firebaseio.com</string>
+</dict>
+</plist>
