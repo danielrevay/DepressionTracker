@@ -23,15 +23,15 @@ class NewController: UIViewController {
         GIDSignIn.sharedInstance().signIn()
         print(moodValue)
         if moodValue == 0 {
-            lblParagraph.text = "Great! Have a wonderful day!"
+            lblParagraph.text = "Great! Have a wonderful day! Once you've signed in, feel free to check out your mood history by visiting the website."
             imgImageView.image = UIImage(named: "273-Freedom_1")
         }
         if moodValue == 1 {
-            lblParagraph.text = "Keep your eyes peeled for good things in life."
+            lblParagraph.text = "Keep your eyes peeled for good things in life. After signing in, consider taking a walk."
             imgImageView.image = UIImage(named: "225-Healing")
         }
         if moodValue == 2 {
-            lblParagraph.text = "There's nothing wrong with having a down day."
+            lblParagraph.text = "There's nothing wrong with having a down day. Once you've signed in, maybe take a look at our website to find ways to improve your mood."
             imgImageView.image = UIImage(named: "263-Cuddling-A-Cat")
         }
         

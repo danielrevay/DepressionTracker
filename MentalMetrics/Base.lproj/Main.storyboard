@@ -178,8 +178,8 @@
                                     <constraint firstAttribute="height" constant="356" id="jdU-ew-nRp"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="lblParagraph" lineBreakMode="wordWrap" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AeW-WK-GFJ">
-                                <rect key="frame" x="20" y="438" width="374" height="146"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="lblParagraph" lineBreakMode="wordWrap" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AeW-WK-GFJ">
+                                <rect key="frame" x="20" y="438" width="374" height="230"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="146" id="pi4-c2-9q2"/>
                                 </constraints>
