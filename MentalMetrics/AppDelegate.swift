@@ -13,6 +13,7 @@ import GoogleSignIn
 class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
     
     var moodValue = 0
+    var ref: DatabaseReference!
     
     func application(_ application: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any]) -> Bool {
         return GIDSignIn.sharedInstance().handle(url)
@@ -29,11 +30,44 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
       let credential = GoogleAuthProvider.credential(withIDToken: authentication.idToken,
                                                         accessToken: authentication.accessToken)
       // ...
-        var ref: DatabaseReference!
+        Auth.auth().signIn(with: credential) { (authResult, error) in
+          if let error = error {
+            let authError = error as NSError
+            //self.showMessagePrompt(error.localizedDescription)
+            
+            // ...
+            return
+          }
+          // User is signed in
+          // ...
+            self.ref = Database.database().reference()
+            
+            let date = Date()
+            let cal = Calendar.current
+            let year = cal.component(.year, from: date as Date)
+            let month = cal.component(.month, from: date as Date)
+            let day = cal.component(.day, from: date as Date)
+            //write to ref
+            //'history/userid/YYYYMMDD'
+            var mood = ""
+            if self.moodValue == 0 {
+                mood = "good"
+            }
+            if self.moodValue == 1 {
+                mood = "neutral"
+            }
+            if self.moodValue == 2 {
+                mood = "bad"
+            }
+            print("p")
+            //let userID = user.userID
+            guard let userID = Auth.auth().currentUser?.uid else {return}
+            print("q")
+            let day_0 = String(format: "%04d%02d%02d", year, month, day)
+            self.ref.child("history/"+userID+"/"+day_0).setValue(["status":mood])
+            print("uhh it should be done here")
+        }
 
-        ref = Database.database().reference()
-        
-        //write to ref
         
     }
 

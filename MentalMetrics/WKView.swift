@@ -21,7 +21,7 @@ class WKView: UIViewController, WKUIDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let myURL = URL(string:"https://www.apple.com")
+        let myURL = URL(string:"https://mentalmetrics.xyz/")
         let myRequest = URLRequest(url: myURL!)
         //let url = Bundle.main.url(forResource:"index",withExtension:"html",subdirectory:"")
         //webView.loadFileURL(url!,allowingReadAccessTo:url!)
