@@ -99,6 +99,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="285" id="gDS-al-cFG"/>
                                 </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <state key="normal" title="Button">
                                     <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
@@ -106,11 +107,11 @@
                                     <action selector="pickGood:" destination="vcY-g9-X5s" eventType="touchUpInside" id="3e6-A7-ReM"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rmg-DI-YdO">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rmg-DI-YdO">
                                 <rect key="frame" x="0.0" y="548" width="414" height="209"/>
                                 <color key="backgroundColor" red="0.77747722590000001" green="0.0" blue="0.5984664743" alpha="0.44931394060000002" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="209" id="JDV-t3-D3H"/>
+                                    <constraint firstAttribute="height" constant="209" id="8dZ-ID-fBu"/>
                                 </constraints>
                                 <state key="normal" title="Button">
                                     <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -119,7 +120,7 @@
                                     <action selector="pickBad:" destination="vcY-g9-X5s" eventType="touchUpInside" id="G4E-NY-Y3i"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cdf-ry-Hi8">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cdf-ry-Hi8">
                                 <rect key="frame" x="0.0" y="293" width="414" height="247"/>
                                 <color key="backgroundColor" red="0.0" green="0.55001920360000001" blue="0.77747722590000001" alpha="0.39129072780000002" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
@@ -129,31 +130,31 @@
                                     <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="pickOK:" destination="vcY-g9-X5s" eventType="touchDragInside" id="swy-Yj-5wH"/>
+                                    <action selector="pickOK:" destination="vcY-g9-X5s" eventType="touchUpInside" id="NEf-tJ-vq2"/>
                                 </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="fT1-rD-hXr"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="TRd-38-wx4" firstAttribute="centerX" secondItem="rmg-DI-YdO" secondAttribute="centerX" id="3Gu-wP-Gcd"/>
+                            <constraint firstItem="rmg-DI-YdO" firstAttribute="trailing" secondItem="Cdf-ry-Hi8" secondAttribute="trailing" id="7dP-Xh-dqx"/>
                             <constraint firstItem="FKd-SN-Ulm" firstAttribute="centerX" secondItem="nN9-wG-GBM" secondAttribute="centerX" id="8j9-Gi-WWp"/>
-                            <constraint firstItem="Cdf-ry-Hi8" firstAttribute="trailing" secondItem="rmg-DI-YdO" secondAttribute="trailing" id="N1O-A0-gAe"/>
+                            <constraint firstItem="rmg-DI-YdO" firstAttribute="leading" secondItem="Cdf-ry-Hi8" secondAttribute="leading" id="A9t-LP-RCp"/>
+                            <constraint firstItem="rmg-DI-YdO" firstAttribute="centerX" secondItem="TRd-38-wx4" secondAttribute="centerX" id="Kdo-iU-FI1"/>
                             <constraint firstItem="fT1-rD-hXr" firstAttribute="bottom" secondItem="TRd-38-wx4" secondAttribute="bottom" constant="29" id="RXm-BD-fg1"/>
-                            <constraint firstItem="Cdf-ry-Hi8" firstAttribute="leading" secondItem="rmg-DI-YdO" secondAttribute="leading" id="UyO-Qm-Fp3"/>
                             <constraint firstItem="Cdf-ry-Hi8" firstAttribute="top" secondItem="FKd-SN-Ulm" secondAttribute="bottom" constant="8" id="WBF-Kp-LE6"/>
                             <constraint firstItem="Cdf-ry-Hi8" firstAttribute="leading" secondItem="fT1-rD-hXr" secondAttribute="leading" id="Xw7-QZ-DSF"/>
                             <constraint firstItem="FKd-SN-Ulm" firstAttribute="leading" secondItem="Cdf-ry-Hi8" secondAttribute="leading" id="cTp-cL-8vz"/>
                             <constraint firstItem="FKd-SN-Ulm" firstAttribute="trailing" secondItem="Cdf-ry-Hi8" secondAttribute="trailing" id="fyd-0E-NoQ"/>
-                            <constraint firstItem="rmg-DI-YdO" firstAttribute="top" secondItem="Cdf-ry-Hi8" secondAttribute="bottom" constant="8" id="mnp-UD-8CT"/>
-                            <constraint firstItem="TRd-38-wx4" firstAttribute="top" secondItem="rmg-DI-YdO" secondAttribute="bottom" constant="24" id="zgb-Vj-6ks"/>
+                            <constraint firstItem="TRd-38-wx4" firstAttribute="top" secondItem="rmg-DI-YdO" secondAttribute="bottom" constant="24" id="lYl-Jq-D4c"/>
+                            <constraint firstItem="rmg-DI-YdO" firstAttribute="top" secondItem="Cdf-ry-Hi8" secondAttribute="bottom" constant="8" id="obZ-fu-AOz"/>
                         </constraints>
                     </view>
                     <value key="contentSizeForViewInPopover" type="size" width="414" height="896"/>
                     <connections>
                         <outlet property="btnBad" destination="rmg-DI-YdO" id="dp9-NH-lZg"/>
                         <outlet property="btnGood" destination="FKd-SN-Ulm" id="c2X-7z-e7u"/>
-                        <outlet property="btnOK" destination="Cdf-ry-Hi8" id="Iw4-I3-v5W"/>
+                        <outlet property="btnOK" destination="Cdf-ry-Hi8" id="yRY-Y0-r5o"/>
                         <outlet property="btnSUBMIT" destination="TRd-38-wx4" id="Rm6-ec-hbM"/>
                     </connections>
                 </viewController>

@@ -9,6 +9,7 @@ target 'MentalMetrics' do
   pod 'Firebase/Auth'
   pod 'FirebaseUI'
   pod 'FirebaseUI/Google'
+  pod 'GoogleSignIn'
 
   target 'MentalMetricsTests' do
     inherit! :search_paths

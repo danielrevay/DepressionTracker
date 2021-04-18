@@ -24,18 +24,21 @@ class ViewController: UIViewController {
         btnOK.titleLabel?.text = ""
         btnGood.titleLabel?.text = "Today was a good day!"
         selected = 0
+        print("0")
     }
     @IBAction func pickOK(_ sender: Any) {
         btnBad.titleLabel?.text = ""
         btnOK.titleLabel?.text = "Today was fine."
         btnGood.titleLabel?.text = ""
         selected = 1
+        print("1")
     }
     @IBAction func pickBad(_ sender: Any) {
         btnBad.titleLabel?.text = "Today could have been better."
         btnOK.titleLabel?.text = ""
         btnGood.titleLabel?.text = ""
         selected = 2
+        print("2")
     }
     @IBAction func pickSUBMIT(_ sender: Any) {
         //This is the part where you run away

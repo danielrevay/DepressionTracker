@@ -7,6 +7,8 @@
 
 import Foundation
 import UIKit
+import Firebase
+import GoogleSignIn
 
 class NewController: UIViewController {
     @IBOutlet weak var btnGoogle: UIButton!
@@ -17,6 +19,8 @@ class NewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        GIDSignIn.sharedInstance()?.presentingViewController = self
+        GIDSignIn.sharedInstance().signIn()
     }
     @IBAction func pickGoogle(_ sender: Any) {
     }
