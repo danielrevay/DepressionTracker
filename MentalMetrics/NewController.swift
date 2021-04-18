@@ -34,6 +34,8 @@ class NewController: UIViewController {
             lblParagraph.text = "There's nothing wrong with having a down day."
             imgImageView.image = UIImage(named: "263-Cuddling-A-Cat")
         }
+        let appDelegate = UIApplication.shared.delegate as? AppDelegate
+        appDelegate?.moodValue = moodValue
     }
     @IBAction func pickGoogle(_ sender: Any) {
     }
