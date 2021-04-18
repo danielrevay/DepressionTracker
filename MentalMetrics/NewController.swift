@@ -21,6 +21,19 @@ class NewController: UIViewController {
         // Do any additional setup after loading the view.
         GIDSignIn.sharedInstance()?.presentingViewController = self
         GIDSignIn.sharedInstance().signIn()
+        print(moodValue)
+        if moodValue == 0 {
+            lblParagraph.text = "Great! Have a wonderful day!"
+            imgImageView.image = UIImage(named: "273-Freedom_1")
+        }
+        if moodValue == 1 {
+            lblParagraph.text = "Keep your eyes peeled for good things in life."
+            imgImageView.image = UIImage(named: "225-Healing")
+        }
+        if moodValue == 2 {
+            lblParagraph.text = "There's nothing wrong with having a down day."
+            imgImageView.image = UIImage(named: "263-Cuddling-A-Cat")
+        }
     }
     @IBAction func pickGoogle(_ sender: Any) {
     }

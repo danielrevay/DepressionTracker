@@ -172,33 +172,53 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="k2O-N1-gBC">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="225-Healing" translatesAutoresizingMaskIntoConstraints="NO" id="k2O-N1-gBC">
                                 <rect key="frame" x="20" y="55" width="374" height="356"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="356" id="x0Y-dU-Vgx"/>
+                                </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="lblParagraph" lineBreakMode="wordWrap" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AeW-WK-GFJ">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="lblParagraph" lineBreakMode="wordWrap" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AeW-WK-GFJ">
                                 <rect key="frame" x="20" y="438" width="374" height="146"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="146" id="tXM-kO-tM4"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UDT-yQ-spV">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UDT-yQ-spV">
                                 <rect key="frame" x="20" y="768" width="160" height="94"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="94" id="bP0-CA-KDz"/>
+                                    <constraint firstAttribute="width" constant="160" id="mUQ-cw-I4x"/>
+                                </constraints>
                                 <state key="normal" title="btnWebsite"/>
                                 <connections>
                                     <action selector="pickWebsite:" destination="oIs-iO-nDm" eventType="touchUpInside" id="Ox8-WY-PA8"/>
                                 </connections>
                             </button>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="d4e-Tm-GWj" customClass="GIDSignInButton">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="d4e-Tm-GWj" customClass="GIDSignInButton">
                                 <rect key="frame" x="234" y="768" width="160" height="94"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="KwH-FW-7Ps"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="k2O-N1-gBC" firstAttribute="leading" secondItem="CGA-lV-Nhr" secondAttribute="leadingMargin" id="BBj-zi-gwD"/>
+                            <constraint firstItem="k2O-N1-gBC" firstAttribute="trailing" secondItem="CGA-lV-Nhr" secondAttribute="trailingMargin" id="Bbs-fP-Nj1"/>
+                            <constraint firstItem="k2O-N1-gBC" firstAttribute="leading" secondItem="AeW-WK-GFJ" secondAttribute="leading" id="Bfx-f7-yZ4"/>
+                            <constraint firstItem="UDT-yQ-spV" firstAttribute="top" secondItem="d4e-Tm-GWj" secondAttribute="top" id="CdN-6L-Vqd"/>
+                            <constraint firstItem="AeW-WK-GFJ" firstAttribute="top" secondItem="k2O-N1-gBC" secondAttribute="bottom" constant="27" id="KDv-TG-Ppr"/>
+                            <constraint firstItem="AeW-WK-GFJ" firstAttribute="trailing" secondItem="d4e-Tm-GWj" secondAttribute="trailing" id="UOT-jT-V7z"/>
+                            <constraint firstItem="k2O-N1-gBC" firstAttribute="top" secondItem="KwH-FW-7Ps" secondAttribute="top" constant="11" id="V8b-Ny-p2g"/>
+                            <constraint firstItem="UDT-yQ-spV" firstAttribute="bottom" secondItem="d4e-Tm-GWj" secondAttribute="bottom" id="aaJ-Yh-5ZQ"/>
+                            <constraint firstItem="d4e-Tm-GWj" firstAttribute="leading" secondItem="UDT-yQ-spV" secondAttribute="trailing" constant="54" id="eCA-GP-2Wh"/>
+                            <constraint firstItem="AeW-WK-GFJ" firstAttribute="leading" secondItem="UDT-yQ-spV" secondAttribute="leading" id="eX1-oM-YsO"/>
+                            <constraint firstItem="UDT-yQ-spV" firstAttribute="bottom" secondItem="KwH-FW-7Ps" secondAttribute="bottom" id="oLe-o3-hqR"/>
+                            <constraint firstItem="k2O-N1-gBC" firstAttribute="trailing" secondItem="AeW-WK-GFJ" secondAttribute="trailing" id="pCv-1Y-Md2"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Jte-bZ-ey0"/>
                     <connections>
@@ -213,6 +233,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="225-Healing" width="595.27899169921875" height="595.281005859375"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
