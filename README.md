@@ -7,8 +7,8 @@
 
 
 
-#[ mentalmetrics.xyz ]( https://mentalmetrics.xyz/ "Website")
-####Helping you take life one day at a time!
+# [ mentalmetrics.xyz ]( https://mentalmetrics.xyz/ "Website")
+#### Helping you take life one day at a time!
 
 ### About:
 
