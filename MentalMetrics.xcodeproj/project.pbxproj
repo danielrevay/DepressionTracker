@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7449E695262BCE4A00EF156B /* NewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7449E694262BCE4A00EF156B /* NewController.swift */; };
 		749F8BE6262B62CB00B2B671 /* HoriStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749F8BE5262B62CB00B2B671 /* HoriStackView.swift */; };
 		749F8BEB262B700400B2B671 /* Slide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749F8BEA262B700400B2B671 /* Slide.swift */; };
 		749F8BF0262B701F00B2B671 /* Slide.xib in Resources */ = {isa = PBXBuildFile; fileRef = 749F8BEF262B701F00B2B671 /* Slide.xib */; };
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7449E694262BCE4A00EF156B /* NewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewController.swift; sourceTree = "<group>"; };
 		749F8BE5262B62CB00B2B671 /* HoriStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoriStackView.swift; sourceTree = "<group>"; };
 		749F8BEA262B700400B2B671 /* Slide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slide.swift; sourceTree = "<group>"; };
 		749F8BEF262B701F00B2B671 /* Slide.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Slide.xib; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 				74D21123262B2E31004ADAD1 /* SceneDelegate.swift */,
 				74D21125262B2E31004ADAD1 /* ViewController.swift */,
 				74D21127262B2E31004ADAD1 /* Main.storyboard */,
+				7449E694262BCE4A00EF156B /* NewController.swift */,
 				749F8BEA262B700400B2B671 /* Slide.swift */,
 				749F8BEF262B701F00B2B671 /* Slide.xib */,
 				74D2115C262B308C004ADAD1 /* WKView.swift */,
@@ -273,6 +276,7 @@
 			files = (
 				74D2115D262B308C004ADAD1 /* WKView.swift in Sources */,
 				74D21126262B2E31004ADAD1 /* ViewController.swift in Sources */,
+				7449E695262BCE4A00EF156B /* NewController.swift in Sources */,
 				749F8BE6262B62CB00B2B671 /* HoriStackView.swift in Sources */,
 				749F8BEB262B700400B2B671 /* Slide.swift in Sources */,
 				74D21122262B2E31004ADAD1 /* AppDelegate.swift in Sources */,

@@ -18,7 +18,7 @@ class HoriStackView : UIViewController {
         slides = createSlides()
         setupSlideScrollView(slides: slides)
         pageControl.numberOfPages = slides.count
-        pageControl.currentPage = 0
+        //pageControl.currentPage = 0
         view.bringSubviewToFront(pageControl)
     }
     func createSlides() -> [Slide] {
