@@ -3,7 +3,7 @@
 //  MentalMetrics
 //
 //  Created by Daniel Revay on 4/17/21.
-//
+//  https://medium.com/@anitaa_1990/create-a-horizontal-paging-uiscrollview-with-uipagecontrol-swift-4-xcode-9-a3dddc845e92
 
 import Foundation
 import UIKit
@@ -30,7 +30,11 @@ class HoriStackView : UIViewController {
         slide2.lblDate.text = "ur dad"
         slide2.lblActualMood.text = "xyd"
         slide2.lblExpectedMood.text = "ur"
-        return [slide1,slide2]
+        let slide3:Slide = Bundle.main.loadNibNamed("Slide", owner: self, options: nil)?.first as! Slide
+        slide3.lblDate.text = "u"
+        slide3.lblActualMood.text = "smthing"
+        slide3.lblExpectedMood.text = "y"
+        return [slide1,slide2,slide3]
     }
     func setupSlideScrollView(slides:[Slide]){
         vwScrollView.frame = CGRect(x: 0, y: 0, width: view.frame.width, height: view.frame.height)
