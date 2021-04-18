@@ -90,7 +90,7 @@
                                 <state key="normal" title="SUBMIT"/>
                                 <connections>
                                     <action selector="pickSUBMIT:" destination="vcY-g9-X5s" eventType="touchUpInside" id="ciF-p0-SKd"/>
-                                    <segue destination="oIs-iO-nDm" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="f2m-xv-cBE"/>
+                                    <segue destination="oIs-iO-nDm" kind="presentation" identifier="submit" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="f2m-xv-cBE"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FKd-SN-Ulm">

@@ -13,6 +13,7 @@ class NewController: UIViewController {
     @IBOutlet weak var btnWebsite: UIButton!
     @IBOutlet weak var lblParagraph: UILabel!
     @IBOutlet weak var imgImageView: UIImageView!
+    var moodValue = 0
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.

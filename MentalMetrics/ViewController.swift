@@ -40,6 +40,11 @@ class ViewController: UIViewController {
     @IBAction func pickSUBMIT(_ sender: Any) {
         //This is the part where you run away
     }
-    
+    override func prepare(for segue: UIStoryboardSegue,sender: (Any)?){
+        if segue.identifier == "submit" {
+            let destController = segue.destination as! NewController
+            destController.moodValue = selected
+        }
+    }
 }
 
