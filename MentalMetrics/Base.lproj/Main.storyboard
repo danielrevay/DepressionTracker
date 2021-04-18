@@ -161,10 +161,10 @@
             </objects>
             <point key="canvasLocation" x="1653.6231884057972" y="73.660714285714278"/>
         </scene>
-        <!--View Controller-->
+        <!--New Controller-->
         <scene sceneID="eBx-Rb-F3W">
             <objects>
-                <viewController id="oIs-iO-nDm" sceneMemberID="viewController">
+                <viewController id="oIs-iO-nDm" customClass="NewController" customModule="MentalMetrics" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="CGA-lV-Nhr">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -184,21 +184,33 @@
                                 <rect key="frame" x="20" y="768" width="160" height="94"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="btnWebsite"/>
+                                <connections>
+                                    <action selector="pickWebsite:" destination="oIs-iO-nDm" eventType="touchUpInside" id="Ox8-WY-PA8"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5yo-nn-fFx">
                                 <rect key="frame" x="234" y="768" width="160" height="94"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="btnGoogleAuth"/>
+                                <connections>
+                                    <action selector="pickGoogle:" destination="oIs-iO-nDm" eventType="touchUpInside" id="8f2-Yt-gDT"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="KwH-FW-7Ps"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="Jte-bZ-ey0"/>
+                    <connections>
+                        <outlet property="btnGoogle" destination="5yo-nn-fFx" id="1gr-ta-mIL"/>
+                        <outlet property="btnWebsite" destination="UDT-yQ-spV" id="C4y-cF-yu1"/>
+                        <outlet property="imgImageView" destination="k2O-N1-gBC" id="sfx-Vk-rlT"/>
+                        <outlet property="lblParagraph" destination="AeW-WK-GFJ" id="AY0-fT-gyH"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Y89-3k-FRr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2725" y="63"/>
+            <point key="canvasLocation" x="2723" y="74"/>
         </scene>
     </scenes>
     <resources>
