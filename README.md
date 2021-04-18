@@ -37,3 +37,4 @@ https://docs.google.com/document/d/1ATAC1cXkOXJe9DFl35oZDZaeRVI92IZDc8yXzJFRg6g/
 - CSS
 - Java Script
 - jQuery
+- Firebase
