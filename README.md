@@ -23,6 +23,12 @@ We plan to expand the application out, and expand the scope of the website, movi
 
 We also plan to start allowing users to track behavioral pattern along with their mood, such as exercise, eating patterns, sleep, and the various behaviors that go into self care and contribute to living a better and happier life.
 
+
+### Research Done
+
+We spent a lot of the first day doing research into the causes of depression, tips for self care, etc. You can see our work and sources here : 
+https://docs.google.com/document/d/1ATAC1cXkOXJe9DFl35oZDZaeRVI92IZDc8yXzJFRg6g/edit?usp=sharing
+
 ### What Runs Mental Metrics
 
 ##### Website
